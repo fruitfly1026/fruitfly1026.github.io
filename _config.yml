@@ -1,5 +1,5 @@
 # Site settings
-title: Henry Jekyll
+title: Jiajia Li
 
 # Build settings
 markdown: kramdown
@@ -8,7 +8,7 @@ permalink: pretty
 favicon: "/assets/img/temp_chem.jpg"
 
 port: 3000
-url: http://localhost:3000
+url: http://fruitfly1026.github.io
 
 sass:
   sass_dir: assets/css
