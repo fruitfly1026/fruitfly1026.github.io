@@ -1,25 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+/*@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}*/
 
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27A822;
+    /*border-top: 5px solid red;*/
+    /*border-top: 5px solid #27a822;*/
+    /*border-bottom: 5px solid red;*/
 }
 
 .container {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
     margin-top: 50px;
 }
 
 a {
     text-decoration: none;
+    color: purple;
     /*background-color: rgba(39, 168, 34, 0.06);*/
 }
 
 a:visited {
     text-decoration: none;
+    color: purple;
 }
 
 a:hover, a:focus {
@@ -30,17 +45,28 @@ p, address {
     margin-bottom: 0;
 }
 
-.me {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+address {
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
-header > h1, section > h1 {
-    color: #27A822;
+/* small picture */
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+header > h1 {
+    color: black;
+}
+
+section > h1 {
+    color: black;
+    text-decoration: underline
 }
 
 header > h1 {
@@ -48,6 +74,48 @@ header > h1 {
     font-size: 250%;
     margin-bottom: 20px;
 }
+
+header > h2 {
+    line-height: 100%;
+    font-size: 150%;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    color: #808080;
+}
+
+
+.navigation > ul { list-style: none; }
+
+.navigation > ul > li > a { 
+    /*font-weight: bold; */
+    color: black;
+    line-height: 100%;
+    font-size: 120%;
+    margin-top: 30px;
+}
+
+.navigation {
+    border-top: 3px solid #DEDEDE;
+    border-bottom: 3px solid #DEDEDE;
+
+    .navigation-item {
+        display: inline;
+        padding-left: 2rem;
+        font-size: 150%;
+        margin-bottom: 30px;        
+    }
+
+    .navigation-list {
+        margin-top: 50px;
+        list-style: none;
+        /*padding-top: 1.1rem;*/
+    }
+}
+
+
+
+
+
 
 .container > header p, .container > header address {
     margin-bottom: 20px;
@@ -71,7 +139,15 @@ article {
     margin-bottom: 20px;
 }
 
-article > header > h1 {
+article > h1 {
+    font-size: 125%;
+    font-weight: bold;
+    line-height: 150%;
+    margin-bottom: 0;
+    color: inherit;
+}
+
+article > ul > li > header > h1 {
     font-size: 112%;
     font-weight: bold;
     line-height: 150%;
@@ -88,7 +164,7 @@ article > header > span + span::before {
     margin-right: 4px;
 }
 
-article > header > span {
+article > ul > li > header > span {
     color: #808080;
     font-size: 100%;
 }
