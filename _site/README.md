@@ -1,4 +1,9 @@
 
+#TODO
+
+1. Add google scholar page
+2. Polish website
+
 # Vitae
 
 [![Build Status](https://secure.travis-ci.org/biomadeira/vitae.png?branch=gh-pages)](http://travis-ci.org/biomadeira/vitae)
