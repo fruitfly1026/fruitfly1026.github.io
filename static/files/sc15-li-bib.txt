@@ -1,4 +1,4 @@
-@inproceedings{Li:2015:IIA:2807591.2807671,
+@inproceedings{ttm-li,
  author = {Li, Jiajia and Battaglino, Casey and Perros, Ioakeim and Sun, Jimeng and Vuduc, Richard},
  title = {An Input-adaptive and In-place Approach to Dense Tensor-times-matrix Multiply},
  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
