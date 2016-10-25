@@ -1,0 +1,10 @@
+@INPROCEEDINGS{dp-li, 
+author={J. Li and G. Tan and M. Chen}, 
+booktitle={Parallel and Distributed Systems (ICPADS), 2010 IEEE 16th International Conference on}, 
+title={Automatically Tuned Dynamic Programming with an Algorithm-by-Blocks}, 
+year={2010}, 
+pages={452-459}, 
+keywords={dynamic programming;ATDP;algorithm-by-blocks;automatically tuned dynamic programming;autotuning framework;domain-specific program generator;hill climbing algorithm;performance-critical kernel;Algorithm-by-Blocks;Auto-tuning;Dynamic Programming;High Performance Computing;SIMD}, 
+doi={10.1109/ICPADS.2010.117}, 
+ISSN={1521-9097}, 
+month={Dec},}
