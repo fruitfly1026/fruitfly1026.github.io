@@ -1,8 +1,4 @@
-
-#TODO
-
-1. Add google scholar page
-2. Polish website
+## Personal Website of Jiajia Li
 
 
 ## Thanks 
