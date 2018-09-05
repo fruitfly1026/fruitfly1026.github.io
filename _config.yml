@@ -29,9 +29,9 @@ markdown: kramdown
 theme: minima
 
 name: Jiajia Li
-school: Computational Science and Engineering
-university: Georgia Tech
-address: North Avenue
-city: Atlanta, GA
+school: High Performance Computing
+university: PNNL
+address: 902 Battelle Boulevard
+city: Richland, WA
 country: US
-postcode: 30332
+postcode: 99352
