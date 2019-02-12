@@ -2,5 +2,5 @@
     author = "Jiajia Li and Yuchen Ma and Xiaolong Wu and Ang Li and Kevin Barker",
     title = "{PASTA}: A Parallel Sparse Tensor Algorithm Benchmark Suite",
     year = "2019"
-    url = "http://fruitfly1026.github.io/static/files/pasta.pdf",
+    url = "https://arxiv.org/abs/1902.03317",
 }
