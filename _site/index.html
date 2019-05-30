@@ -34,6 +34,9 @@
               <a class="navigation-link" href="/index.html" data-popover>Home</a>
             </li>
             <li class="navigation-item">
+              <a class="navigation-link" href="#software" data-popover>Software</a>
+            </li>
+            <li class="navigation-item">
               <a class="navigation-link" href="#publication" data-popover>Publication</a>
             </li>
             <li class="navigation-item">
@@ -103,6 +106,17 @@
 </section>
 
 <section class="twelve columns">
+    <h1>News</h1>
+        <article>
+        <!-- <h1>News</h1> -->
+        <ul>
+          <li><strong>Jun. 23-28:</strong> Will present in <a href="https://ics19.eecis.udel.edu">ICS'19</a></li>
+          <li><strong>Sep. 17-20:</strong> Will present in workshop <a href="http://www.cvent.com/d/f6q4y5">"AI and Tensor Factorization for Physical Chemical and Biological Systems"</a></li>
+        </ul>
+    </article>
+</section>
+
+<section class="twelve columns" id="software">
     <h1>Software</h1>
     <article>
         <ul>
@@ -146,6 +160,14 @@
                     <em>Sparse Matrix-vector multiplication Auto-Tuner</em>
                 </p>
             </li>
+            <li>
+                <header>
+                    <h1><a href="http://www.ncic.ac.cn/~tgm/dgemm/dgemm_ati.html">HDGEMM</a></h1>
+                </header>
+                <p>
+                    <em>A Hybrid DGEMM library on a Heterogeneous CPU-AMD GPU Architecture</em>
+                </p>
+            </li>
         </ul>
     </article>
 </section>
@@ -165,7 +187,20 @@
                     <em>International Conference on Supercomputing (ICS). <time>2019 (Accepted)</time> </em>
                      <br/><a href="/static/files/ics19-li.pdf">[paper]</a>
                      <a href="/static/files/ics19-li-bib.txt">[bib]</a>
-                     <a href="https://labweb.pnl.gov/Pages/20190516140535.aspx">[news]</a>
+                     <!-- <a href="https://github.com/hpcgarage/ParTI">[code]</a> -->
+                </p>
+            </li>
+
+
+            <li>
+                <header>
+                    <h1>A Microbenchmark Characterization of the Emu Chick</h1>
+                    <span>Jeffrey S.Young, Eric Heinc, Srinivas Eswar, Patrick Lavin, <strong>Jiajia Li</strong>, Jason Riedy, Richard Vuduc, Tom Conte</span>
+                </header>
+                <p>
+                    <em>Parallel Computing (ParCo). <time>2019 (Accepted)</time> </em>
+                     <br/><a href="https://www.sciencedirect.com/science/article/pii/S0167819118302503?via%3Dihub">[paper]</a>
+                     <a href="/static/files/parco-young-bib.txt">[bib]</a>
                 </p>
             </li>
 
@@ -177,7 +212,20 @@
                 <p>
                     <em>IEEE International Parallel & Distributed Processing Symposium (IPDPS). <time>2019 (Accepted)</time> </em>
                      <br/><a href="https://arxiv.org/pdf/1904.03329.pdf">[paper]</a>
-                     <a href="">[bib]</a>
+                     <a href="/static/files/ipdps19-nisa-bib.txt">[bib]</a>
+                     <a href="https://github.com/isratnisa/B-CSF">[code]</a>
+                </p>
+            </li>
+
+            <li>
+                <header>
+                    <h1>Programming Strategies for Irregular Algorithms on the Emu Chick</h1>
+                    <span>Eric Hein, Srinivas Eswar, Abdurrahman Yaşar, <strong>Jiajia Li</strong>, Jeffrey S. Young, Thomas M. Conte, Ümit V. Çatalyürek, Rich Vuduc, Jason Riedy, Bora Uçar</span>
+                </header>
+                <p>
+                    <em>ArXiv. <time>2019</time> </em>
+                     <br/><a href="https://arxiv.org/abs/1901.02775">[paper]</a>
+                     <a href="/static/files/arxiv-hein-bib.txt">[bib]</a>
                 </p>
             </li>
 
@@ -189,7 +237,7 @@
                 <p>
                     <em><time>2019 (Under Review)</time> </em>
                      <br/><a href="https://arxiv.org/abs/1903.04611">[paper]</a>
-                     <a href="">[bib]</a>
+                     <a href="/static/files/arxiv-li-bib.txt">[bib]</a>
                 </p>
             </li>
 
@@ -202,6 +250,7 @@
                     <em><time>2019 (Under Review)</time> </em>
                      <br/><a href="https://arxiv.org/abs/1902.03317">[paper]</a>
                      <a href="/static/files/pasta-li-bib.txt">[bib]</a>
+                     <a href="https://gitlab.com/tensorworld/pasta">[code]</a>
                 </p>
             </li>
 
@@ -211,7 +260,7 @@
                     <span>Ke Meng, <strong>Jiajia Li</strong>, Guangming Tan, Ninghui Sun</span>
                 </header>
                 <p>
-                    <em>Principles and Practice of Parallel Programming (<i>PPoPP</i>). <time>2019</time> <i><strong>Best Paper Award Finalist</strong></i></em>
+                    <em>Principles and Practice of Parallel Programming (<i>PPoPP</i>). <time>2019</time> <i><strong><font color="red">Best Paper Award Finalist</font></strong></i> </em>
                      <br/><a href="https://dl.acm.org/citation.cfm?doid=3293883.3295716">[paper]</a>
                      <a href="/static/files/gswitch-meng-bib.txt">[bib]</a>
                      <a href="https://github.com/jokopi/GSWITCH">[code]</a>
@@ -247,11 +296,12 @@
                     <span><strong>Jiajia Li</strong>, Jimeng Sun, Richard Vuduc</span>
                 </header>
                 <p>
-                    <em>ACM/IEEE International Conference for High-Performance Computing, Networking, Storage, and Analysis (<i>SC</i>). <time>2018</time> <i><strong>Best Student Paper Award</strong></i> </em>
+                    <em>ACM/IEEE International Conference for High-Performance Computing, Networking, Storage, and Analysis (<i>SC</i>). <time>2018</time> <i><strong><font color="red">Best Student Paper Award</font></strong></i> </em>
                      <br/>
                      <a href="/static/files/sc18-li.pdf">[paper]</a>
                      <a href="/static/files/sc18-li-slides.pdf">[slides]</a>
-                     <a href="/static/files/sc18-li-bib.txt">[bib]</a> <br/>
+                     <a href="/static/files/sc18-li-bib.txt">[bib]</a> 
+                     <a href="https://github.com/hpcgarage/ParTI">[code]</a> <br/>
                      <strong>News: </strong>
                      <a href="https://www.pnnl.gov/science/highlights/highlight.asp?id=5038">[PNNL Press]</a>
                      <a href="https://www.cc.gatech.edu/news/615074/hicoo-takes-home-best-student-paper-title-supercomputing-2018-creating-new-storage">[GaTech Press]</a>
@@ -265,7 +315,9 @@
                 </header>
                 <p>
                     <em>Journal of Parallel and Distributed Computing (Special Issue on Systems for Learning, Inferencing, and Discovering)</em>
-                    <br/><a href="/static/files/jpdc-ma.pdf">[paper]</a><a href="https://github.com/hpcgarage/ParTI/tree/jpdc">[code]</a><a href="/static/files/jpdc-ma-bib.txt">[bib]</a>
+                    <br/><a href="/static/files/jpdc-ma.pdf">[paper]</a>
+                    <a href="/static/files/jpdc-ma-bib.txt">[bib]</a>
+                    <a href="https://github.com/hpcgarage/ParTI/tree/jpdc">[code]</a>
                 </p>
             </li>
             <li>
@@ -548,6 +600,24 @@ Architectures and Algorithms (IA^3), co-located with SC’16. <time>2016</time><
         <ul>
             <li>
                 <header>
+                    <h1>Optimizing and Benchmarking Sparse Tensor and Matrix Methods on New Architectures, under <a href="https://cenate.pnnl.gov">DOE PNNL CENATE project</a></h1>
+                </header>
+                <p>
+                    <em>Benchmarking sparse tensor algorithms: <a href="https://gitlab.com/tensorworld/pasta">PASTA</a> <br/>
+                    </em>
+                </p>
+            </li> 
+            <li>
+                <header>
+                    <h1>Optimizing Sparse Tensor Algorithms for Quantum Chemistry, under <a href="https://cenate.pnnl.gov">DOE ECP project</a></h1>
+                </header>
+                <p>
+                    <em>
+                    </em>
+                </p>
+            </li> 
+            <li>
+                <header>
                     <h1>Parallel Tensor Infrastructure (ParTI) on multicore CPUs and GPUs</h1>
                 </header>
                 <p>
@@ -561,7 +631,19 @@ Architectures and Algorithms (IA^3), co-located with SC’16. <time>2016</time><
                 <p>
                     <em></em>
                 </p>
-            </li> 
+            </li>
+            <li>
+                <header>
+                    <h1>Sparse Tensor Collection</h1>
+                </header>
+                <p>
+                    <em>Collect sparse tensors from real-world applications and analyze the sparse tensor behavior, collaborating with Shaden Smith el al. in <a href="http://frostt.io/">FROSTT</a> project.</em>
+                </p>
+            </li>            
+        </ul>
+
+        <h1>Past Projects</h1>
+        <ul>
             <li>
                 <header>
                     <h1>CP Decomposition and Matriced Tensor Times Khatri-Rao Product (MTTKRP)</h1>
@@ -578,18 +660,6 @@ Architectures and Algorithms (IA^3), co-located with SC’16. <time>2016</time><
                     <em>Improved TTM performance by optimizing the data transformation time.</em>
                 </p>
             </li>
-            <li>
-                <header>
-                    <h1>Sparse Tensor Collection</h1>
-                </header>
-                <p>
-                    <em>Collect sparse tensors from real-world applications and analyze the sparse tensor behavior, collaborating with Shaden Smith el al. in <a href="http://frostt.io/">FROSTT</a> project.</em>
-                </p>
-            </li>            
-        </ul>
-
-        <h1>Past Projects</h1>
-        <ul>
             <li>
                 <header>
                     <h1>SMAT (SpMV Auto-tuner)</h1>
@@ -627,7 +697,7 @@ Architectures and Algorithms (IA^3), co-located with SC’16. <time>2016</time><
 
             <li>
                 <header>
-                    <h1>As the Finance chair of Principles and Practice of Parallel Programming (<a href="https://www.sigplan.org/Conferences/PPOPP/">PPoPP'20</a>).</h1>
+                    <h1>As the Finance Chair and PC of Principles and Practice of Parallel Programming (<a href="https://www.sigplan.org/Conferences/PPOPP/">PPoPP'20</a>).</h1>
                 </header>
                 <p>
                     <em><time>Nov. 2019</time></em>

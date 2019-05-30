@@ -1,0 +1,20 @@
+@article{Li:2019:tartan,
+  author    = {Ang Li and
+               Shuaiwen Leon Song and
+               Jieyang Chen and
+               Jiajia Li and
+               Xu Liu and
+               Nathan R. Tallent and
+               Kevin J. Barker},
+  title     = {Evaluating Modern {GPU} Interconnect: PCIe, NVLink, NV-SLI, NVSwitch
+               and GPUDirect},
+  journal   = {CoRR},
+  volume    = {abs/1903.04611},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1903.04611},
+  archivePrefix = {arXiv},
+  eprint    = {1903.04611},
+  timestamp = {Sun, 31 Mar 2019 19:01:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-04611},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

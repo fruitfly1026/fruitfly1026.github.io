@@ -1,0 +1,22 @@
+@article{Hein:2019:emu,
+  author    = {Eric R. Hein and
+               Srinivas Eswar and
+               Abdurrahman Yasar and
+               Jiajia Li and
+               Jeffrey S. Young and
+               Thomas M. Conte and
+               {\"{U}}mit V. {\c{C}}ataly{\"{u}}rek and
+               Rich Vuduc and
+               E. Jason Riedy and
+               Bora U{\c{c}}ar},
+  title     = {Programming Strategies for Irregular Algorithms on the Emu Chick},
+  journal   = {CoRR},
+  volume    = {abs/1901.02775},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1901.02775},
+  archivePrefix = {arXiv},
+  eprint    = {1901.02775},
+  timestamp = {Sat, 02 Feb 2019 12:19:05 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1901-02775},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

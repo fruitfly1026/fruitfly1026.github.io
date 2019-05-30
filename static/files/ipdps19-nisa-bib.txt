@@ -1,0 +1,17 @@
+@article{Nisa:2019:bcsf,
+  author    = {Israt Nisa and
+               Jiajia Li and
+               Aravind Sukumaran{-}Rajam and
+               Richard W. Vuduc and
+               P. Sadayappan},
+  title     = {Load-Balanced Sparse {MTTKRP} on GPUs},
+  journal   = {CoRR},
+  volume    = {abs/1904.03329},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1904.03329},
+  archivePrefix = {arXiv},
+  eprint    = {1904.03329},
+  timestamp = {Wed, 24 Apr 2019 12:21:25 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1904-03329},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
