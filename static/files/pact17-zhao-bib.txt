@@ -1,0 +1,13 @@
+@INPROCEEDINGS{Zhao:2017:spmv, 
+	author={Y. {Zhao} and J. {Li} and C. {Liao} and X. {Shen}}, 
+	booktitle={2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)}, 
+	title={POSTER: Bridging the Gap Between Deep Learning and Sparse Matrix Format Selection}, 
+	year={2017}, 
+	volume={}, 
+	number={}, 
+	pages={152-153}, 
+	keywords={learning (artificial intelligence);neural nets;sparse matrices;deep learning;sparse matrix format selection;input matrix representations;deep neural network structure design;transfer learning;Sparse matrices;Training;Machine learning;Predictive models;Decision trees;Systematics;Neural networks;SpMV;sparse matrix storage format;deep learning}, 
+	doi={10.1109/PACT.2017.33}, 
+	ISSN={}, 
+	month={Sep.},
+}
