@@ -1,0 +1,16 @@
+@inproceedings{li2020parallel,
+author = {Li, Jiajia and Lakshminarasimhan, Mahesh and Wu, Xiaolong and Li, Ang and Olschanowsky, Catherine and Barker, Kevin},
+title = {A Parallel Sparse Tensor Benchmark Suite on {CPUs} and {GPUs}},
+year = {2020},
+isbn = {9781450368186},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3332466.3374513},
+doi = {10.1145/3332466.3374513},
+booktitle = {Proceedings of the 25th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+pages = {403–404},
+numpages = {2},
+keywords = {roofline model, GPU, sparse tensors, benchmark},
+location = {San Diego, California},
+series = {PPoPP ’20}
+}
