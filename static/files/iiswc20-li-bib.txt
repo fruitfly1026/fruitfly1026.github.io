@@ -1,0 +1,8 @@
+@inproceedings{li2020pasta,
+author = {Li, Jiajia and Lakshminarasimhan, Mahesh and Wu, Xiaolong and Li, Ang and Olschanowsky, Catherine and Barker, Kevin},
+title = {A Parallel Sparse Tensor Benchmark Suite on {CPUs} and {GPUs}},
+year = {2020},
+publisher = {IEEE},
+booktitle = {IEEE International Symposium on Workload Characterization},
+series = {IISWC ’20}
+}

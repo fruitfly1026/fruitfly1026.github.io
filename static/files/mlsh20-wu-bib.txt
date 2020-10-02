@@ -1,0 +1,6 @@
+@article{wu2020sparse,
+ title={Generic, Sparse Tensor Core for Neural Networks},
+ author={Wu, Xiaolong and Yi, Yang and Tian, Dave and Jiajia Li},
+ journal={International Workshop on Machine Learning for Software Hardware Co-Design (MLSH'20)},
+ year={2020}
+}
