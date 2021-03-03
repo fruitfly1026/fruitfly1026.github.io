@@ -1,0 +1,7 @@
+@inproceedings{liu2021sparta,
+  title={{Sparta}: high-performance, element-wise sparse tensor contraction on heterogeneous memory},
+  author={Liu, Jiawen and Ren, Jie and Gioiosa, Roberto and Li, Dong and Li, Jiajia},
+  booktitle={Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+  pages={318--333},
+  year={2021}
+}
