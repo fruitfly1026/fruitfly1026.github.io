@@ -1,0 +1,6 @@
+@inproceedings{liu2021athena,
+  title={{Athena}: High-Performance Sparse Tensor Contraction Sequence on Heterogeneous Memory},
+  author={Liu, Jiawen and Li, Dong and Gioiosa, Roberto and Li, Jiajia},
+  booktitle={International Conference on Supercomputing 2021 (ICS)},
+  year={2021}
+}
