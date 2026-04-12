@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/base.css">
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css">
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/site-refresh.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!--[if lt IE 9]>
@@ -21,12 +22,15 @@
 </head>
 
 <body>
-<div class="container">
-    <header class="four columns">
+<div class="container site-shell">
+    <header class="four columns site-sidebar">
+        <div class="sidebar-inner">
         <img src="{{ site.baseurl }}static/img/ljj.jpg" class="me">
-        <h1>{{ site.name }}</h1>
-        <p>{{ site.school }}</p>
-        <h2>{{ site.university }}</h2>
+        <div class="identity-block">
+            <h1>{{ site.name }}</h1>
+            <p class="role">{{ site.school }}</p>
+            <h2>{{ site.university }}</h2>
+        </div>
 
         <nav class="navigation">
             <ul class="navigation-list">
@@ -40,16 +44,19 @@
               <a class="navigation-link" href="#awards" data-popover>Awards</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#software" data-popover>Software</a>
+              <a class="navigation-link" href="#publication" data-popover>Publication</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#publication" data-popover>Publication</a>
-            </li>            
+              <a class="navigation-link" href="#software" data-popover>Software</a>
+            </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#activities" data-popover>Activities</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#course" data-popover>Teaching</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#people" data-popover>People</a>
             </li>
             <!-- <li class="navigation-item">
               <a class="navigation-link" href="{{ site.baseurl }}/random" data-popover>Blog</a>
@@ -60,36 +67,34 @@
             </ul>
         </nav>
 
-        <p>
-            Website: <a href="http://jiajiali.org">www.jiajiali.org</a><br/>
-            Email: <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            Curriculum Vitae: <a href="{{ site.baseurl }}/static/files/JiajiaLi-NCSU.pdf">[pdf]</a><br/>
-            <a href="https://scholar.google.com/citations?user=A8TTuWMAAAAJ&hl=en">Google Scholar</a><br/>
-            <a href="https://www.linkedin.com/in/jiajiali"><i class="fa fa-linkedin"></i> LinkedIn</a> /
-            <a href="https://github.com/fruitfly1026"><i class="fa fa-github"></i> Github</a> 
-            <!-- <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a> </br/> -->
-        </p>
+        <div class="contact-card">
+            <p><span>Website</span><a href="http://jiajiali.org">www.jiajiali.org</a></p>
+            <p><span>Email</span><a href="{{ site.email_full }}">{{ site.email }}</a></p>
+            <p><span>CV</span><a href="{{ site.baseurl }}/static/files/JiajiaLi-NCSU.pdf">Full PDF</a></p>
+            <p><span>Profiles</span><a href="https://scholar.google.com/citations?user=A8TTuWMAAAAJ&hl=en">Google Scholar</a></p>
+            <p class="profile-links"><a href="https://www.linkedin.com/in/jiajiali"><i class="fa fa-linkedin"></i> LinkedIn</a><a href="https://github.com/fruitfly1026"><i class="fa fa-github"></i> GitHub</a></p>
+        </div>
 
-        <address>
-            Address: <br/>
+        <address class="address-card">
+            <strong>Address</strong><br/>
             {{ site.address }}<br/>
             {{ site.city }}<br/>
             {{ site.country }}<br/>
             {{ site.postcode }}
         </address>
-        </section>
+        </div>
     </header>
 
-    <div class="twelve columns clearfix">
+    <main class="twelve columns clearfix site-main">
 
         {{ content }}
 
-    <footer class="twelve columns">
+    <footer class="twelve columns site-footer">
         <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll and <a href="https://github.com">GitHub Pages</a></p>
     </footer>
-    </div>
+    </main>
 </div>
 
-	
+<script src="{{ site.baseurl }}static/js/site-refresh.js"></script>
 </body>
 </html>
