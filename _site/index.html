@@ -30,13 +30,11 @@
             <h1>Jiajia Li</h1>
             <p class="role">Computer Science</p>
             <h2>NCSU</h2>
+            <p class="role"><a href="https://tensorworld.github.io/" target="_blank" rel="noopener">TensorWorld</a></p>
         </div>
 
         <nav class="navigation">
             <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/index.html" data-popover>Home</a>
-            </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#research" data-popover>Projects</a>
             </li>
@@ -56,7 +54,7 @@
               <a class="navigation-link" href="#course" data-popover>Teaching</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#people" data-popover>People</a>
+              <a class="navigation-link" href="#people" data-popover>Students</a>
             </li>
             <!-- <li class="navigation-item">
               <a class="navigation-link" href="/random" data-popover>Blog</a>
@@ -93,9 +91,9 @@
     <h1>About me</h1>
         <article>
 
-        <p>Jiajia Li is an <strong>Assistant Professor</strong> in <a href="https://www.csc.ncsu.edu">Department of Computer Science</a> at <a href="https://www.ncsu.edu">North Carolina State University (NCSU)</a>, Raleigh, NC. 
-        Her research emphasizes on high performance computing with a focus on the interaction among applications, numerical methods, data structures, algorithms, automatic performance tuning, and computer architectures.
-        She is eager to pursue high performance sparse (multi-)linear algebra, solvers, and tensor decompositions for large-scale data analytics and domain applications on diverse computer architectures.
+        <p>Jiajia Li is an <strong>Assistant Professor</strong> in <a href="https://www.csc.ncsu.edu">Department of Computer Science</a> at <a href="https://www.ncsu.edu">North Carolina State University (NCSU)</a>, Raleigh, NC.
+        Her research focuses on high performance computing with an emphasis on the interaction among applications, numerical methods, algorithms, automatic performance tuning, performance profiling, program analysis, and computer architectures.
+        She is particularly interested in building high-performance and reliable systems for sparse and irregular workloads, including sparse (multi-)linear algebra, solvers, tensor computations, and GPU programs for large-scale data analytics and domain applications on diverse computer architectures.
         <!-- optimizing tensor algorithms such as tensor decompositions and fundamental tensor operations especially for sparse data by utilizing various parallel architectures. -->
         </p><br/>
 
@@ -114,7 +112,8 @@
         <strong>Please feel free to drop me an email @ <a href="mailto:jiajia.li@ncsu.edu">jiajia.li@ncsu.edu</a> if you have questions about CS PhD program, research collaboration, research/career/international life suggestions, etc. 
         </p></strong><br/>
 
-        <p>For more information, please click here for the <strong><a href="/static/files/JiajiaLi-NCSU.pdf">Curriculum Vitae</a></strong></p>.
+        <p>For more information, please click here for the <strong><a href="/static/files/JiajiaLi-NCSU.pdf">Curriculum Vitae</a></strong>.</p>
+        <p>Visit my research group: <strong><a href="https://tensorworld.github.io/">TensorWorld</a></strong>.</p>
 
       <!--   <h1>News</h1>
         <ul>
@@ -124,12 +123,14 @@
     </article>
 </section>
 
+
 <section class="twelve columns">
     <h1>News</h1>
     <article>
         <ul>
-          <li><strong>July 2026:</strong> Zecheng Li will present our <em>TypeCraft: A Lightweight Data Type Profiler with High Resolution</em> work at <a href="https://www.usenix.org/conference/osdi26">OSDI'26</a> in Seattle, WA, USA.</li>
           <li><strong>May 2026:</strong> Zhaonan Meng will present our <em>STTID: High-Performance Sparse Tensor-Train Interpolative Decomposition</em> work at <a href="https://www.ipdps.org/">IPDPS'26</a> in New Orleans, LA, USA.</li>
+          <li><strong>June 2026:</strong> Yanbo Zhao will present our <em>Leveraging AI Ecosystem for Portable and Sustainable GPU Kernels in HPC</em> work at <a href="https://pldi26.sigplan.org/home/ARRAY-2026">ARRAY'26</a>.</li>
+          <li><strong>July 2026:</strong> Zecheng Li will present our <em>TypeCraft: A Lightweight Data Type Profiler with High Resolution</em> work at <a href="https://www.usenix.org/conference/osdi26">OSDI'26</a> in Seattle, WA, USA.</li>
         </ul>
     </article>
 </section>
@@ -138,11 +139,19 @@
 <section class="twelve columns" id="research">
     <h1>Projects</h1>
     <article>
-        <p class="section-summary">Selected current and past projects. Expand each group for details.</p>
         <details class="foldable" open data-default-open="true">
             <summary class="foldable-summary">Current Projects</summary>
             <div class="foldable-body">
                 <ul>
+                    <li>
+                        <header>
+                            <p><em>CS2: <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2546785">Collaborative Research: CS2: Formally Verified and Performance-Optimized Tensor Contraction Sequences in Quantum Many-Body Computations</a></em></p>
+                        </header>
+                        <p>
+                            Lead PI: <strong>Jiajia Li</strong>; PIs: Bo Yuan (Rutgers), Cunxi Yu (Michigan), Ajay Panyala (PNNL) <br/>
+                            NSF CS2 project, 05/01/2026 - 04/30/2029, Total amount: $1,500,000 (NCSU portion: $267,000)
+                        </p>
+                    </li>
                     <li>
                         <header>
                             <p><em>CROSS: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2316201&HistoricalAwards=false">Collaborative Research: PPoSS: LARGE: Cross-layer Coordination and Optimization for Scalable and Sparse Tensor Networks (CROSS)</a></em></p>
@@ -175,6 +184,24 @@
                         <p>
                             PI: <strong>Jiajia Li</strong><br/>
                             DOE EXPRESS project #656071, 11/14/2022 – 12/30/2023, Total amount: $78,382
+                        </p>
+                    </li>
+                    <li>
+                        <header>
+                            <p><em>DrGPU: Collaborative Research: CNS Core: SMALL: Optimizing GPU Programs via Novel Profiling Techniques</em></p>
+                        </header>
+                        <p>
+                            PIs: <strong>Jiajia Li</strong>, Xu Liu <br/>
+                            NSF CNS project, 10/01/2021 - 09/30/2025, Total amount: $250,000
+                        </p>
+                    </li>
+                    <li>
+                        <header>
+                            <p><em>CloudSvc: Collaborative Research: CNS Core: Small: Towards Efficient Cloud Services</em></p>
+                        </header>
+                        <p>
+                            PIs: <strong>Jiajia Li</strong>, Xu Liu <br/>
+                            NSF CNS project, 10/01/2020 - 09/30/2024, Total amount: $266,000
                         </p>
                     </li>
                     <li>
@@ -311,6 +338,20 @@
                     </li>
                     <li>
                         <header>
+                            <p><em>SparseZETA: Intelligent Auto-Tuner for Designing High-Performance SpMV Programs</em></p>
+                            <span>Zhen Du, Ying Liu, Xionghui Chen, Yanbo Zhao, Xiaobing Feng, Huimin Cui, <strong>Jiajia Li</strong>.</span>
+                        </header>
+                        <p><em>Programming Language Design and Implementation (PLDI). <time>2026 (Accepted)</time></em></p>
+                    </li>
+                    <li>
+                        <header>
+                            <p><em>Leveraging AI Ecosystem for Portable and Sustainable GPU Kernels in HPC</em></p>
+                            <span>Yanbo Zhao, Zhaonan Meng, Sai Krishna Teja Varma Manthena, Xu Liu, Ajay Panyala, <strong>Jiajia Li</strong>.</span>
+                        </header>
+                        <p><em>ARRAY, co-located with Programming Language Design and Implementation (PLDI). <time>2026 (Accepted)</time></em></p>
+                    </li>
+                    <li>
+                        <header>
                             <p><em>SmartDispatch: Dynamic Substitution of NumPy-style APIs on Heterogenous CPU-GPU Systems</em></p>
                             <span>Jinku Cui, Yueming Hao, Shuyin Jiao, <strong>Jiajia Li</strong>, Xu Liu.</span>
                         </header>
@@ -328,7 +369,7 @@
                             <p><em>STTID: High-Performance Sparse Tensor-Train Interpolative Decomposition</em></p>
                             <span>Zhaonan Meng, Miles Stoudenmire, Karl Pierce, Frank Mueller, <strong>Jiajia Li</strong>.</span>
                         </header>
-                        <p><em>IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2026</time></em></p>
+                        <p><em>IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2026 (Accepted)</time></em></p>
                     </li>
                     <li>
                         <header>
@@ -920,53 +961,42 @@
 <section class="twelve columns" id="course">
     <h1>Teaching</h1>
     <article>
-        <p class="teaching-note">Recent teaching and mentoring activities are adapted from the current PA2 dossier and grouped here in a shorter website format.</p>
-
         <details class="foldable" open>
-            <summary class="foldable-summary">Recent Courses Taught</summary>
+            <summary class="foldable-summary">Courses Taught</summary>
             <div class="foldable-body">
                 <ul>
                     <li>
-                        <header>
-                            <h1>Architecture of Parallel Computers</h1>
-                        </header>
-                        <p class="course-meta"><em>NCSU CSC/ECE 506-01</em>, Fall 2025, Enrollment: 40</p>
+                        <p class="course-meta"><strong>Architecture of Parallel Computers</strong> - <em>NCSU CSC/ECE 506-01</em>, Fall 2025</p>
                     </li>
                     <li>
-                        <header>
-                            <h1>Parallel Algorithms</h1>
-                        </header>
-                        <p class="course-meta"><em>NCSU CSC 491-005, CSC 591-126</em>, Fall 2025, Enrollment: 8</p>
+                        <p class="course-meta"><strong>Parallel Algorithms</strong> - <em>NCSU CSC 491-005, CSC 591-126</em>, Fall 2025</p>
                     </li>
                     <li>
-                        <header>
-                            <h1>Parallel Systems</h1>
-                        </header>
-                        <p class="course-meta"><em>NCSU CSC 548-01, ECE 591-029</em>, Spring 2025, Enrollment: 62</p>
+                        <p class="course-meta"><strong>Parallel Systems</strong> - <em>NCSU CSC 548-01, ECE 591-029</em>, Spring 2025</p>
                     </li>
                     <li>
-                        <header>
-                            <h1>Seminar in Computer Science</h1>
-                        </header>
-                        <p class="course-meta"><em>NCSU CSC 801-002</em>, Fall 2024, Enrollment: 16+</p>
+                        <p class="course-meta"><strong>Seminar in Computer Science</strong> - <em>NCSU CSC 801-002</em>, Fall 2024</p>
                     </li>
                     <li>
-                        <header>
-                            <h1>Parallel Algorithms</h1>
-                        </header>
-                        <p class="course-meta"><em>NCSU CSC 591/791-126, ECE 591-025</em>, Fall 2024, Enrollment: 19</p>
+                        <p class="course-meta"><strong>Parallel Algorithms</strong> - <em>NCSU CSC 591/791-126, ECE 591-025</em>, Fall 2024</p>
                     </li>
                     <li>
-                        <header>
-                            <h1>Accelerating Deep Learning</h1>
-                        </header>
-                        <p class="course-meta"><em>NCSU CSC 495-004/591-104</em>, Spring 2024, Enrollment: 26</p>
+                        <p class="course-meta"><strong>Accelerating Deep Learning</strong> - <em>NCSU CSC 495-004/591-104</em>, Spring 2024</p>
                     </li>
                     <li>
-                        <header>
-                            <h1>Earlier Graduate and Undergraduate Courses</h1>
-                        </header>
-                        <p class="course-meta">Additional offerings include Efficient Tensor Computation for AI and Scientific Applications, Parallel Systems, and courses at William &amp; Mary on Algorithms and Accelerating Deep Learning.</p>
+                        <p class="course-meta"><strong>Efficient Tensor Computation for AI and Scientific Applications</strong> - <em>NCSU CSC 591/791-26</em>, Fall 2023</p>
+                    </li>
+                    <li>
+                        <p class="course-meta"><strong>Parallel Systems</strong> - <em>NCSU CSC 548-01</em>, Spring 2023</p>
+                    </li>
+                    <li>
+                        <p class="course-meta"><strong>Accelerating Deep Learning</strong> - <em>NCSU CSC 591/791-25</em>, Spring 2023</p>
+                    </li>
+                    <li>
+                        <p class="course-meta"><strong>Algorithms</strong> - <em>W&amp;M CSCI 303-01</em>, Spring 2022</p>
+                    </li>
+                    <li>
+                        <p class="course-meta"><strong>Accelerating Deep Learning</strong> - <em>W&amp;M CSCI 780-02</em>, Fall 2021</p>
                     </li>
                 </ul>
             </div>
@@ -976,10 +1006,8 @@
 
 
 <section class="twelve columns" id="people">
-    <h1>People</h1>
+    <h1>Students</h1>
     <article>
-        <p class="people-intro">Students listed here are drawn from Section II.C. Mentoring Activities in the current PA2 dossier.</p>
-
         <details class="foldable" open>
             <summary class="foldable-summary">Ph.D. Students</summary>
             <div class="foldable-body">
