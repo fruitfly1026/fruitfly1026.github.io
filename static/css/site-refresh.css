@@ -171,17 +171,22 @@ header > h2 {
   display: inline-block;
   padding: 6px 12px;
   border-radius: 999px;
-  background: var(--accent);
-  color: #fff;
+  background: #31455d;
+  background-color: #31455d;
+  border: 1px solid #31455d;
+  color: #ffffff !important;
   font-weight: 700;
   text-decoration: none;
+  line-height: 1.2;
   box-shadow: 0 6px 18px rgba(31, 45, 61, 0.16);
 }
 
 .cv-link:hover,
 .cv-link:focus {
-  color: #fff;
+  color: #ffffff !important;
   background: #22364d;
+  background-color: #22364d;
+  border-color: #22364d;
 }
 
 .profile-links {
