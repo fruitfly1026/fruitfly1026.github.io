@@ -420,3 +420,16 @@ em {
     padding: 20px 18px;
   }
 }
+
+/* Make publication reference links ([paper]/[arXiv]/DOI) clearly visible */
+#publication a,
+#publication a:visited {
+  color: #2f6fb3;
+  font-weight: 600;
+}
+
+#publication a:hover,
+#publication a:focus {
+  color: #1d4e82;
+  text-decoration: underline;
+}
